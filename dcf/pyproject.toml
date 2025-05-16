@@ -1,0 +1,21 @@
+[project]
+name = "dcf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "yfinance",
+    "loguru",
+    "click",
+    "streamlit",
+    "plotly",
+    "openpyxl",
+    "pytest",
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+include = ["dcftool*"]
